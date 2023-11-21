@@ -1,0 +1,44 @@
+@import "./Variables.scss";
+@import "./Navbar.scss";
+@import "./Home.scss";
+@import "./Sidebar.scss";
+@import "./MainVideo.scss";
+@import "./VideoSlider.scss";
+@import "./WineCarousel.scss";
+@import "./Products.scss";
+@import "./Articles.scss";
+@import "./TextSection.scss";
+@import "./Auth.scss";
+@import "./FranceCard.scss";
+@import "./Domaine.scss";
+@import "./AdminDashboard.scss";
+@import "./ItemsDashboard.scss";
+@import "./DomainGallery.scss";
+@import "./ContactPage.scss";
+@import "./ImageCarousel.scss";
+@import "./Footer.scss";
+@import "./MentionsLegales.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: $title-font-family;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f9f9f9;
+  color: rgb(62, 62, 62);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  text-align: center;
+}

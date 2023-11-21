@@ -1,0 +1,92 @@
+.main-products-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #ababab;
+  background-image: url(http://www.transparenttextures.com/patterns/textured-paper.png);
+  padding-bottom: 2%;
+}
+
+.user-products-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 350px));
+  grid-gap: 60px 60px;
+  justify-content: center;
+  align-items: baseline;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.user-products-wrapper {
+  width: 1200px;
+  position: relative;
+  left: 9%;
+  margin-top: 5%;
+}
+
+.user-product-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 350px));
+  grid-gap: 25px 25px;
+  justify-content: center;
+  align-items: baseline;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.user-product-container img {
+  width: 70%;
+}
+.products-title {
+  text-align: center;
+  padding-bottom: 0.5rem;
+  font-size: 3rem;
+  margin-top: 5%;
+  border-bottom: 4px solid $red;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.details-product-container {
+  display: flex;
+  width: 50%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.details-product-container img {
+  height: 550px;
+}
+
+.details-product-container h5 {
+  font-size: 1.3rem;
+}
+
+.details-product-container h1 {
+  font-size: 3rem;
+  color: $red;
+}
+
+.details-product-container h3 {
+  font-size: 2rem;
+}
+
+.details-product-container h4 {
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.price {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+}
+
+.description-product {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
